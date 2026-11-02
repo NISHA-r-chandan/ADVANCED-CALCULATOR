@@ -1,9 +1,49 @@
+package AdvCalc;
 import java.util.Scanner;
 class Equation{
-    int n;
+    //final constant to avoid errors due to values in double
+    public static final double EPSILON = 1e-9;
+
+    //menu based
+    public void coeff(){
+        System.out.println("1. Simul Equation\n2. Polynomial\nEnter your choice: ")
+        int choice = sc.nextInt();
+        if(choice == 1){
+            System.out.println("Equation1: a1x +b1y = c1 ");
+            System.out.println("Enter value of a1: ");
+            double a1 = sc.nextDouble();
+            
+            System.out.println("Enter value of b1: ");
+            double b1 = sc.nextDouble();
+
+            System.out.println("Enter value of c1: ");
+            double c1 = sc.nextDouble();
+
+            System.out.println("Equation1: a2x +b2y = c2 ");
+            System.out.println("Enter value of a2: ");
+            double a2 = sc.nextDouble();
+
+            System.out.println("Enter value of b2: ");
+            double b2 = sc.nextDouble();
+
+            System.out.println("Enter value of c2: ");
+            double c2 = sc.nextDouble();
+            class Calculation.simuleq();
+        }
+        else if(choice == 2){
+            System.out.pritnln("Polynomial: Equation : ax
+            
+    
+    
+            
+    double a, b, c;
+    
+    
+
+    
+    
     Scanner sc = new Scanner(System.in);
-    System.out.println("Enter number of unknowns(2,3,4): ")
-    n = sc.nextInt();
+   
     int a1, a2, a3, a4, b1, b2, b3, b4,c1, c2, c3, c4;
     switch(n){
         case 2:
