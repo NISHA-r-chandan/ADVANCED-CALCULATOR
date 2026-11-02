@@ -58,10 +58,7 @@ class Equation{
             }
         }
     sc.close();
-    }
-    public static void main(String[] args){
-        Equation.coeff();
-    }    
+    }   
 }     
     
 //calculation
