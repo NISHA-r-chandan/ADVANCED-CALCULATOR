@@ -16,3 +16,4 @@ public class Trig {
         return Math.tan(angle * PI / 180);
     }
 }
+
