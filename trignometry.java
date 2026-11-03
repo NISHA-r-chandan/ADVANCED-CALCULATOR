@@ -1,4 +1,4 @@
-package operations;
+package AdvCalc;
 
 public class Trig {
 
