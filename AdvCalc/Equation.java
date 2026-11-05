@@ -1,6 +1,6 @@
 package AdvCalc;
 import java.util.Scanner;
-class Equation{ 
+public class Equation{ 
     
     //menu based
     public static void coeff(){
